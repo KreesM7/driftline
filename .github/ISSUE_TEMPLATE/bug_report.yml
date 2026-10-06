@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible problem with sanitized evidence.
+body:
+  - type: markdown
+    attributes:
+      value: Never include identifiers, credentials, or full reports. Report vulnerabilities privately.
+  - type: input
+    id: environment
+    attributes:
+      label: Driftline, Node, and OS versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true

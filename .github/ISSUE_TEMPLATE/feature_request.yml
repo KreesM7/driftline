@@ -1,0 +1,15 @@
+name: Feature request
+description: Explain the community problem and safe proposed outcome.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Who needs this, and what problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, alternatives, and privacy implications
+    validations:
+      required: true

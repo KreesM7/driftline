@@ -1,0 +1,50 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "driftline-0.1.0-local-preview",
+  "documentNamespace": "https://spdx.org/spdxdocs/driftline-0.1.0-5d2dc3e1-445d-4fcf-a362-5479f6f2a04e",
+  "creationInfo": {
+    "created": "2026-10-06T14:40:00Z",
+    "creators": [
+      "Tool: Codex"
+    ],
+    "comment": "Manual component inventory. No file-level or transitive runtime/image inventory."
+  },
+  "packages": [
+    {
+      "name": "driftline",
+      "SPDXID": "SPDXRef-Driftline",
+      "versionInfo": "0.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2026 Driftline contributors"
+    },
+    {
+      "name": "Node.js",
+      "SPDXID": "SPDXRef-NodeRuntime",
+      "versionInfo": "24.21.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "licenseComments": "Node core MIT terms and bundled third-party notices. Runtime is external and not distributed in Driftline.",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Driftline"
+    },
+    {
+      "spdxElementId": "SPDXRef-Driftline",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-NodeRuntime"
+    }
+  ]
+}

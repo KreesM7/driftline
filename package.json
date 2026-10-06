@@ -1,0 +1,23 @@
+{
+  "name": "driftline",
+  "version": "0.1.0",
+  "description": "Private, read-only security drift checks for your own device.",
+  "type": "module",
+  "bin": {
+    "driftline": "./bin/driftline.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node ./scripts/check.mjs",
+    "lint": "node ./scripts/check.mjs",
+    "security-check": "node ./scripts/security-check.mjs",
+    "benchmark": "node ./scripts/benchmark.mjs",
+    "start": "node ./bin/driftline.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "Apache-2.0",
+  "files": ["bin", "src", "data", "docs", "scripts", "README.md", "SECURITY.md", "LICENSE", "NOTICE", "CHANGELOG.md", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md", "ROADMAP.md"],
+  "keywords": ["security", "privacy", "posture", "cli", "drift", "it"]
+}

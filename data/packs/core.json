@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "controls": [
+    {
+      "id": "updates",
+      "title": "Update posture",
+      "titleAr": "حالة التحديثات",
+      "severity": "high",
+      "nextStep": "Open your operating system's update settings and install any pending security updates."
+    },
+    {
+      "id": "disk-encryption",
+      "title": "Disk encryption",
+      "titleAr": "تشفير القرص",
+      "severity": "high",
+      "nextStep": "Review disk encryption in your operating system settings and keep recovery material in a safe place."
+    },
+    {
+      "id": "firewall",
+      "title": "Host firewall",
+      "titleAr": "جدار الحماية",
+      "severity": "high",
+      "nextStep": "Review firewall profiles and enable protection for the networks you use."
+    },
+    {
+      "id": "screen-lock",
+      "title": "Screen lock",
+      "titleAr": "قفل الشاشة",
+      "severity": "medium",
+      "nextStep": "Set a password-protected screen lock that activates after a short period of inactivity."
+    },
+    {
+      "id": "remote-access",
+      "title": "Remote access",
+      "titleAr": "الوصول عن بُعد",
+      "severity": "medium",
+      "nextStep": "Review enabled remote-access services. Keep only services you intentionally use and protect them with strong authentication."
+    }
+  ]
+}
